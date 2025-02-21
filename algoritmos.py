@@ -1,4 +1,4 @@
-class AlgortimosSecuenciales:
+class AlgoritmosSecuenciales:
 
     def __init__(self, numero):
         self.numero = numero
