@@ -14,8 +14,8 @@ algoritmos = AlgoritmosSecuenciales(numero)
 if st.button("Clacular Suma de N números"):
     st.success(f"La suma de los primeros {numero} es:{algoritmos.suma_n_numeros()} ")
 
-if st.button("Calcular  Factorial"):
-    st.success(f" El factorial de {numero} es: {algoritmos.factorial()}")
+if st.button("Calcular Factorial"):
+    st.success(f"El factorial de {numero} es: {algoritmos.factorial()}")
 
-if st.button("Generar secuencia de fibonacci"):
-    st.success(f"La secuencia de fibonacci con {numero} terminos es: { algoritmos.fibonacci()}")
+if st.button("Generar Secuencia de Fibonacci"):
+    st.success(f"La secuencia de Fibonacci con {numero} términos es: {algoritmos.fibonacci()}")
