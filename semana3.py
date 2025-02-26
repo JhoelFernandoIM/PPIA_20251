@@ -8,10 +8,20 @@ def clasificar_puntaje(puntaje):
         return "Bueno"
     else:
         return "necesita mejorar"
+    
+#Menú lateral
+st.sidebar.title("Menú de navegación")
+opcion = st.sidebar.selectbox("Seleccione una opción", ["Inicio", "Clasificación de puntajes"])
 
-#Interfaz en stremalit
-st.title("Clasificación de puntaje")
-st.write("Ingrese un puntaje y el sitema lo clasificará")
+#Sección inicio
+if opcion == "Inicio":
+    st.title("Bienvenido a la aplicación")
+
+#Seccion: clasificación de puntajes
+elif opcion == "Clasificación de puntajes":
+    st.title("Clasificación de puntajes")
+    st.write("Ingrese un puntaje y el sitema lo clasificará")
+
 
 #entrada de usuario
 puntaje = st.number_input("Ingrese un puntaje (0-100): ", min_value=0, max_value=100, step=1)
