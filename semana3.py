@@ -14,7 +14,7 @@ st.title("Clasificación de puntaje")
 st.write("Ingrese un puntaje y el sitema lo clasificará")
 
 #entrada de usuario
-puntaje = st.number_input("Ingrese un puntaje (0-100): ", min value=0, max_value=100, step=1)
+puntaje = st.number_input("Ingrese un puntaje (0-100): ", min_value=0, max_value=100, step=1)
 
 #botón para clasificar
 if st.button("Clasificar"):
