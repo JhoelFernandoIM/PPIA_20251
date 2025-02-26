@@ -10,7 +10,7 @@ def clasificar_puntaje(puntaje):
         return "necesita mejorar"
     
 #Menú lateral
-st.sidebar.title("Menú de navegación")
+st.sidebar.title("Menú de Navegación")
 opcion = st.sidebar.selectbox("Seleccione una opción", ["Inicio", "Clasificación de puntajes"])
 
 #Sección inicio
