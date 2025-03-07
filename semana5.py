@@ -20,6 +20,9 @@ def main():
     st.subheader("Ejemplo con for")
     m=st.number_input("Ingrese un número  para generar una secuencia: ", min_value=1, max_value=10)
     resultado_for = "".join(f"{i} " for i in range (1, m+1))
+    st.write("Secuencia generada con for: ", resultado_for)
     
 if __name__ == "__main__":
     main()
+    
+    
