@@ -14,3 +14,10 @@ def main():
         resultado_while +=f"{contador}"
         contador +=1
     st.write("Secuencia generada con while: ", resultado_while)
+
+    #Ejemplo de for
+
+    st.subheader("Ejemplo con for")
+    m=st.number_input("Ingrese un número  para generar una secuencia: ", min_value=1, max_value=10)
+    resultado_for = "".join(f"{i} " for i in range (1, m+1))
+    
