@@ -14,3 +14,6 @@ def main():
         resultado_while +=f"{contador}"
         contador +=1
     st.write("Secuencia generada con while: ", resultado_while)
+
+if __name__ == "__main__":
+    main()
